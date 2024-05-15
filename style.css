@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(61, 8, 97), rgb(0, 70, 128));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 400px;
+    max-height: 70%;
+    width: 1000px;
+    padding: 20px;
+    background-color: skyblue;
+    overflow-y: auto;
+
+}
+
+.clear-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.clear-text {
+    color: blueviolet;
+}
+
+.clear-btn {
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+li {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px blueviolet solid;
+    color: seagreen;
+    font-weight: bold;
+}
+
+.priorety {
+    width: 10px;
+    height: 40px;
+}
+
+button {
+    background-color: blueviolet;
+}
+
+.input-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 5px;
+    justify-content: space-between;
+}
+
+.add-btn {
+    cursor: pointer;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input,
+button {
+    cursor: pointer;
+}
+
+form {
+    font-weight: bold;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+h1 {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.to-do-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.delete-btn {
+    height: 100%;
+    width: 40px;
+    color: white;
+}
+
+.done {
+    background-color: lightgreen;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="to-do-container">
+            <h1>Todo App</h1>
+            <div class="input-block">
+                <input type="text" class="add-input">
+
+                <input type="date" class="date-input">
+
+                <form>
+                    <input type="radio" id="radio1" name="radios" value="Low" class="rad green">
+                    <label for="radio1">Low</label><br>
+                    <input type="radio" id="radio2" name="radios" value="Medium" class="rad yellow">
+                    <label for="radio2">Medium</label><br>
+                    <input type="radio" id="radio3" name="radios" value="High" class="rad red">
+                    <label for="radio3">High</label>
+                </form>
+                <select id="mySelect">
+                    <option value="option1" class="selects">Mahmut</option>
+                    <option value="option2" class="selects">Alisher</option>
+                    <option value="option3" class="selects">Emir</option>
+                </select>
+                <button class="add-btn">+</button>
+            </div>
+            <ul class="todos">
+                <!-- <li>Buy a new laptop
+                <button class="delete-btn">X</button>
+            </li> -->
+            </ul>
+        </div>
+        <div class="clear-container">
+            <div class="clear-text"></div>
+            <input type="search" name="" id="mySearch">
+            <button class="clear-btn">Clear All</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
